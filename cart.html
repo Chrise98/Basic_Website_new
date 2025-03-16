@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-circle">Knowledge Infinity Bookstore</div>
+            <h1>Welcome to an Infinity Bookstore</h1>
+            <nav class="nav">
+                <a href="basic_weebsite.html">Home</a>
+                <a href="basic_weebsite.html">Categories</a>
+                <a href="#">Contact</a>
+                <a href="cart.html">Cart</a>
+            </nav>
+        </header>
+
+        <aside class="sidebar">
+            <ul class="categories">
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Fantasy</a></li>
+                <li><a href="#">Manga</a></li>
+            </ul>
+        </aside>
+
+        <main class="book-container">
+            <section class="cart-text">
+                <h2>This is your cart</h2>
+                <p class="cart-note">This is a static representation of your cart.</p>
+                <div class="cart-item">
+                    <div class="book">
+                        <img src="Screenshot 2025-01-30 at 13.39.24.png" alt="Harry Potter">
+                        <div class="info">
+                            <h3>Harry Potter</h3>
+                            <h3>J.K. Rowling</h3>
+                            <p class="price"><strong>€1000</strong></p>
+                            <label>Quantity: <input type="number" value="1" min="1" max="1"></label>
+                        </div>
+                    </div>
+                    <button class="remove-button">Remove</button>
+                </div>
+                
+                <div class="cart-item">
+                    <div class="book">
+                        <img src="Screenshot 2025-01-30 at 13.39.24.png" alt="Hunger Games">
+                        <div class="info">
+                            <h3>Hunger Games</h3>
+                            <h3>Suzanne Collins</h3>
+                            <p class="price"><strong>€999</strong></p>
+                            <label>Quantity: <input type="number" value="1" min="1" max="1"></label>
+                        </div>
+                    </div>
+                    <button class="remove-button">Remove</button>
+                </div>
+            </section>
+            
+        <section class="total-price">
+            <h3>Total: <span id="total-price">€1999</span></h3>
+        </section>    
+        </main>
+
+        <footer class="footer">
+            <div class="contact-details">
+                <p>Contact Us:</p>
+                <ul>
+                    <li>Email: <a href="mailto:chrismymail@yahoo.com">chrismymail@yahoo.com</a></li>
+                    <li>Phone: <a href="tel:+123456789">+123-456-789</a></li>
+                    <li>Address: 123 Infinity Book Road, Kristianstad, HKR 123</li>
+                </ul>
+            </div>
+            <p>&copy; 2025 Online Bookstore. No Copyrights allowed.</p>
+        </footer>
+    </div>
+</body>
+</html>
